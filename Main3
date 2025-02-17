@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main2 {
+    public static void main(String[] args) {
+
+        Scanner sherlock = new Scanner(System.in);
+
+        System.out.println("informe sua idade : ");
+        int x = sherlock.nextInt();
+
+
+        System.out.println("informe seu nome : ");
+        String i = sherlock.next();
+
+
+        System.out.println("informe um altura : ");
+        Double z = sherlock.nextDouble();
+
+        System.out.println(("sua altura é : ")+z);
+        System.out.println(("seu nome é : ")+i);
+        System.out.println(("sua idade é : ")+x);
+    }
+}
