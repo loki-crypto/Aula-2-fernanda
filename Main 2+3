@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class Main1 {
+    public static void main(String[] args) {
+        int x = 0;
+        Scanner sherlock = new Scanner(System.in);
+        do{
+            System.out.println("Caso escolha 1 para ótima escolha");
+            System.out.println("Caso escolha 2 para valor da blusa");
+            System.out.println("Caso escolha 3 para falar com a atendente");
+            System.out.println("coloque seu número abaixo---->");
+            int r = sherlock.nextInt();
+            switch (r) {
+                case 1:
+                    System.out.println("Ótima escolha!");
+                    break;
+                case 2:
+                    System.out.println("O valor da blusa é R$ 2,00");
+                    break;
+                case 3:
+                    System.out.println("Falar com atendente");
+                    break;
+                default:
+                    System.out.println("Inválido");
+                    break;
+            }
+            System.out.print("Para repetir, digite 0");
+            x = sherlock.nextInt();
+            }while(x ==1);
+    }
+}
